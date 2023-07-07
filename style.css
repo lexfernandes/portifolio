@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+  color: #837e9f;
+  box-sizing: border-box;
+}
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+body {
+  background-color: #22212c;
+  color: #837e9f;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.container {
+  display: flex;
+  margin: 40px;
+}
+.profile {
+  width: 500px;
+}
+.photo {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  width: auto;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 32px 0 32px 0px;
+  height: 292px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo img {
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+  padding: 2px;
+  border: 2px solid rgb(0, 255, 0);
+}
+.name {
+  font-weight: 700;
+  font-size: 23px;
+  font-style: normal;
+  padding: 30px 0 10px 0;
+}
+.occupation {
+  font-size: 13px;
+  font-weight: 300;
+  padding-top: 10px 0px 5px 0px;
+}
+.social {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 380px;
+  margin-top: 30px;
+  border: 50px;
+}
+.socials {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 50px;
+}
+.socials > div {
+  display: flex;
+  padding: 20px 40px 3px;
+}
+.socials svg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+}
+.socials p {
+  padding: 6px 20px 0 20px;
+}
+.tecnologias {
+  background-color: #302f3d;
+  border-radius: 20px;
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 0px 0 30px 0px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.title-tecnologias{
+  padding: 20px 0 0 2px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.techs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+.languages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #CB92B1;
+  border-radius: 30px;
+  font-size: 10px;
+  color: black;
+  font-weight: 700;
+  padding: 2px 8px ;
+  margin: 5px;
+} 
