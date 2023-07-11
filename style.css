@@ -291,4 +291,19 @@ body {
   align-items: center;
   margin-left: 230px;
 }
-
+.post {
+  display: flex;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 100px;
+  margin-top: 30px;
+  align-items: center;
+}
+.title-post {
+  padding: 0 0 0 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
