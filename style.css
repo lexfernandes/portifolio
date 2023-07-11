@@ -219,3 +219,29 @@ body {
 .schools-names p:nth-child(3) {
   font-weight: 400;
 }
+/* INACABADO CORRIGIR*/
+.projects {
+  width: 100%;
+  min-width: 500px;
+  padding-left: 40px;
+}
+.my-projects {
+  display: flex;
+  border-radius: 20px;
+  background: #302f3d;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 76px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0 32px 0px;
+}
+.my-projects :nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 30px;
+}
+.my-projects a {
+  font-size: 14px;
+  padding-right: 30px;
+}
